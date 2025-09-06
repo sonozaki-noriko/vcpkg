@@ -6,7 +6,10 @@
   "license": "LGPL-2.1-or-later",
   "supports": "!uwp & !android",
   "dependencies": [
-    "gettext",
+    {
+      "name": "gettext",
+      "host": true
+    },
     {
       "name": "libmtp",
       "host": true,
