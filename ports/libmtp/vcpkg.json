@@ -4,7 +4,7 @@
   "description": "A library to access MTP (Media Transfer Protocol) devices",
   "homepage": "https://sourceforge.net/projects/libmtp/",
   "license": "LGPL-2.1-or-later",
-  "supports": "!uwp",
+  "supports": "!uwp & !android",
   "dependencies": [
     "gettext",
     {
