@@ -89,7 +89,7 @@ index 62898ef..dafb574 100644
  #  include <libintl.h>
  #  undef _
 diff --git a/src/ptp.h b/src/ptp.h
-index 992537c..3224d65 100644
+index 992537c..30794bf 100644
 --- a/src/ptp.h
 +++ b/src/ptp.h
 @@ -25,10 +25,15 @@
@@ -103,7 +103,7 @@ index 992537c..3224d65 100644
  #include <iconv.h>
  #endif
 +#ifdef _WIN32
-+#include <winsock2.h>
++#include <winsock.h>
 +#endif
  #include "gphoto2-endian.h"
  #include "device-flags.h"
