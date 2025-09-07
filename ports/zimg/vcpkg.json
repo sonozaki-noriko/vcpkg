@@ -1,0 +1,15 @@
+{
+  "name": "zimg",
+  "version-semver": "3.0.6",
+  "description": "Scaling, colorspace conversion, and dithering library",
+  "homepage": "https://github.com/sekrit-twc/zimg",
+  "license": "WTFPL",
+  "supports": "!uwp",
+  "dependencies": [
+    {
+      "name": "vcpkg-msbuild",
+      "host": true,
+      "platform": "windows & !mingw"
+    }
+  ]
+}
